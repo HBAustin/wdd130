@@ -6,17 +6,18 @@ body {
     font-family: "Glacial Indifference";
     background-color: black;
     color: white;
-    text-align: center
+    text-align: center;
+    min-height: 800px
 }
 .button {
     display: inline-block;
     width: 150px;
     text-align: center;
     font-size: 1.5em;
-    font-family: "Poppins"
+    font-family: "Poppins";
+
 }
 a {
-    transition: all .2s ease-in-out;
     padding: 5px;
     color: Black;
     margin: 10px;
@@ -25,7 +26,7 @@ a {
     width: 350px;
 }
 a:hover {
-    background-color:rgb(38, 38, 38);
+    background-color:black;
     color: white
 }
 a:link {text-decoration: none;}
@@ -34,5 +35,15 @@ p {
     font-size: 1.5em;
     background-color: rgb(78, 78, 78);
     margin-left: 100px;
-    margin-right: 100px
+    margin-right: 100px;
+    margin-bottom: 50px
+}
+footer {
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    background-color: white;
+    color: black
 }
