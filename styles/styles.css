@@ -12,6 +12,7 @@ h1 {
 #nav1 {text-decoration: none;
 }
 #nav1 {
+    transition: all .1s ease-in-out;
     display: block;
     text-align: center;
     padding: 5px;
@@ -22,17 +23,19 @@ h1 {
     width: 300px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 50px;
 }
 #nav1:hover {
     background-color: black;
     color: white
 }
 footer {
-    font-size: 30px;
     text-align: center;
-    position: fixed;
+    position: fixed; 
     bottom: 0;
-    width: 100%;
-    color:white;
-    background-color: rgb(29, 29, 29)
+    left: 0;
+    right: 0;
+    height: 20px;
+    background-color: white;
+    color: black
 }
