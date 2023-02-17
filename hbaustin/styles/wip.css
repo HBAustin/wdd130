@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;1,300&display=swap');
+
+body {
+    background-color: Black;
+    color: white;
+    text-align: center;
+    font-family: 'Rubik';
+}
+img {
+    width: 30%;
+}
+button {
+    width: 100px;
+    font-size: 1em;
+    margin-top: 50px;
+    color: gray
+}
+a {
+    color: black;
+    text-decoration: none;
+    transition: all .2s ease-in
+}
+a:hover {
+    transform: scale(1.2);
+    color: blue
+}
