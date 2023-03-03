@@ -73,8 +73,8 @@ footer a {
     text-decoration: none;
 }
 footer a:hover{
-    background-color: black;
-    color: white;
+    background-color: none;
+    color: blue;
     text-decoration: underline;
 }
 footer .social img {
@@ -237,4 +237,39 @@ nav {
     footer {
         margin-top: 25px;
     }
+}
+#grid-title {
+    padding-top: 100px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+#grid-faq {
+    font-size: auto;
+    padding: 50px;
+    grid-column-gap: 50px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+#grid-title2 {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+#grid-faq2 {
+    font-size: auto;
+    padding: 50px;
+    grid-column-gap: 50px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+.title {
+    background-color: #ACD7EC;
+    color:black
 }
