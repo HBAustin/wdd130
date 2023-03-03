@@ -239,7 +239,7 @@ nav {
     }
 }
 #grid-title {
-    padding-top: 100px;
+    padding-top: 50px;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -272,4 +272,8 @@ nav {
 .title {
     background-color: #ACD7EC;
     color:black
+}
+.between {
+    padding-top: 40px;
+    text-align: center;
 }
